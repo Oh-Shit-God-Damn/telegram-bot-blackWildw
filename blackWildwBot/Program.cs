@@ -39,7 +39,7 @@ namespace blackWildwBot
             }
             if (text == "/Yakuba")
             {
-               await botClient.SendAudioAsync(chatId: e.Message.Chat.Id,"https://github.com/TelegramBots/book/raw/master/src/docs/audio-guitar.mp3");
+               await botClient.SendAudioAsync(e.Message.Chat.Id, "https://github.com/Oh-Shit-God-Damn/tg-bot-blackWildw/blob/master/src/Yakuba.mp3");
             }
             if (text == "/help")
             {
